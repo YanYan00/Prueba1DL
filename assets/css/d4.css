@@ -1,0 +1,51 @@
+.card {
+  font-family: 'Roboto', sans-serif;
+}
+.card-title {
+  font-weight: 500;
+}
+.card-text {
+  font-weight: 300;
+  color: #707070;
+}
+.cardInfo{
+  display: flex;
+  gap: 6px;
+}
+.cardInfo i{
+  gap:10px;
+}
+.separador{
+  font-weight: 300;
+  color:#707070A0;
+}
+.cardPrecios{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  gap: 10px;
+}
+.cardPrecios .card-title{
+  color: #28A745;
+}
+#botones {
+  font-family: 'Roboto', sans-serif;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.btn{
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+footer{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer h3{
+  font-weight: 500;
+}

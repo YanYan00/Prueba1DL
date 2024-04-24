@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    flex-direction: column;
+}
+header{
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+main{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#infoIguanas{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    color:white;
+    background-color: black;
+    gap: 20px;
+}
+#texto{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#iguana{
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 200px;
+}
+#caracteristicas{
+    text-align: center;
+    background-color: rgb(70, 68, 68);
+    color: white;
+}
+#cTitulo{
+    margin-top: 40px;
+}
+#cont{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#imgIguanas{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    gap:40px;
+}
+.iguanas{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 200px;
+}
+#visita{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    gap: 4px;
+}
+footer{
+    color: white;
+    background-color: rgb(70, 68, 68);
+    text-align: center;
+}
+a , a:visited{
+    color: white;
+}

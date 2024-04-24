@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-image: url(/assets/imagenes/header.jpg);
+    background-size:cover;
+    height: 400px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+#titulo{
+    padding: 110px 0px 0px 200px;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 50px;
+}
+#descripcion{
+    padding: 0px 0px 0px 200px;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 25px;
+    color:rgb(62, 63, 63);
+}
+main{
+    background: linear-gradient(  #e8e9e4  ,#6f8f46);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.imagen{
+    margin: 50px 120px 50px 200px;
+    height: 250px;
+    width: 250px;
+}
+.producto{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.tipoPlanta{
+    font-weight: bold;
+}
+footer{
+    background: #6f8f46;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
