@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/stlyes.css">
     <script src="https://kit.fontawesome.com/72018ed253.js" crossorigin="anonymous"></script>
     <link rel="icon" type="imagen/png" href="/assets/img/favicon.png">
 </head>
@@ -32,10 +32,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
                     <li class="nav-item">
-                        <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
+                        <a class="nav-link" href="#Educacion">Educacion</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Mis-trabajos">Trabajos</a>
+                        <a class="nav-link" href="#Trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Portafolio">Portafolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Contacto">Contacto</a>
@@ -46,58 +49,74 @@
             </div>
         </div>
     </nav>
-
-    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
-        <div class="container">
-            <div class="ms-auto col-12 col-md-7 ">
+    <header id="Hero-Section" class="text-light text-center py-5 mt-5">
+        <div class="container d-flex flex-column justify-content-center h-100">
+            <div class="col-12 col-md-7 mx-auto">
                 <h1 class="display-1 fw-bold my-5">
                     Desarrollo fullstack
                 </h1>
-                <p class="my-5">
-                    Pagina de Jean Rojas dedicada a la evolucion de su trabajo en Desafio Latam en cada entrega, trabajando con todo lo aprendido en la unidad de frontend.
-                </p>
             </div>
         </div>
     </header>
+    <section id="Educacion" class="container my-5 p-1">
+        <h3 class="text-center display-3 fw-bold my-4">Educacion</h3>
+        <div class="row">
+            <div class="col-12 my-3 text-center">
+                <h3 class="my-3 fw-bold">Enseñanza Basica</h3>
+                <p>
+                    Ernesto Yañez Rivera.
+                </p>
+            </div>
+            <div class="col-12 my-3 text-center">
+                <h3 class="my-3 fw-bold">Enseñanza Media</h3>
+                <p>
+                    Liceo Dario Salas.
+                </p>
+            </div>
+            <div class="col-12 my-3 text-center">
+                <h3 class="my-3 fw-bold">Enseñanza Superior</h3>
+                <p>
+                    Universidad de Santiago.
+                </p>
+                <p>
+                    Desafio Latam.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="Trabajos" class="container text-center my-5 p-1">
 
-
-    <section id="Acerca-de-mi" class="container text-center my-5">
-
-
-        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
-
-        <p class="my-4">
-            Jean 23 años, nacido en Santiago de Chile el 22 de Julio del 2000, vive con su madre y tiene un perro llamado Black.
-        </p>
+        <h3 class="display-3 fw-bold my-4">Trabajos</h3>
 
 
         <div class="row">
             <div class="col-12 col-md-4">
-                <i class="fa-solid fa-book fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Estudiante</h3>
+                <i class="fa-solid fa-door-open fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Conserje</h3>
                 <p class="my-3">
-                    Actualmente Jean Rojas estudia la carrera de Ingenieria de Ejecucion Informatica en la Universidad de Santiago de Chile.
+                    Conserjeria en edificios residenciales (2018-2024).
                 </p>
             </div>
             <div class="col-12 col-md-4">
-                <i class="fa-solid fa-heart-pulse fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Deportes</h3>
+                <i class="fa-brands fa-python fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Ayudante</h3>
                 <p class="my-3">
-                    Jean es aficionado de los deportes de contacto, practicando Kick-Boxing y BJJ desde hace aproximadamente 10 años, actualmente practica MMA en conjunto de estas.
+                    Ayudante en programacion en Python(2021-2023).
                 </p>
             </div>
             <div class="col-12 col-md-4">
-                <i class="fa-solid fa-music fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Musica</h3>
+                <i class="fa-solid fa-burger fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Comida Rapida
+                </h3>
                 <p class="my-3">
-                    Algo indispensable para Jean en su día a día, Jean puede estar de 5 a 6 horas minimo escuchando musica durante el día sobretodo en su tiempo libre.
+                    Cadenas de comida rapida(2022).
                 </p>
             </div>
         </div>
     </section>
 
-
-    <section id="Mis-trabajos" class="my-5 p-5 bg-info">
+    <section id="Portafolio" class="my-5 p-5 bg-info">
 
         <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
 
@@ -110,6 +129,9 @@
                         <p class="card-text">
                             En el desafio 1 debiamos hacer un cv solo utilizando html y hacer un enlace entre otra pagina llamada portafolio.
                         </p>
+                        <div class="text-center">
+                            <a href="desafio1.html" class="btn btn-primary">Ver</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -121,6 +143,9 @@
                         <p class="card-text">
                             En el desafio 2 debiamos hacer una pagina que fuera editada con css y que pusiera venta de ciertos objetos.
                         </p>
+                        <div class="text-center">
+                            <a href="desafio2.html" class="btn btn-primary">Ver</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -132,6 +157,9 @@
                         <p class="card-text">
                             En el desafio 3 debiamos hacer una pagina acerca de iguanas con sus caracteristicas e informacion acerca de ellas.
                         </p>
+                        <div class="text-center">
+                            <a href="desafio3.html" class="btn btn-primary">Ver</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -143,6 +171,9 @@
                         <p class="card-text">
                             En el desafio 4 debiamos hacer una pagina con bootstrap con cards y un formulario con ciertas caracteristicas.
                         </p>
+                        <div class="text-center">
+                            <a href="desafio4.html" class="btn btn-primary">Ver</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -152,9 +183,11 @@
 
 
 
-    <footer class="bg-dark text-center text-light p-4">
+    <footer id="Contacto" class="bg-dark text-center text-light p-4">
         <p class="mb-0">Contacto</p>
         <a href="https://wa.me/56959241438"> <img src="assets/imgs/social.png" alt="Icono wsp" width="30px"></a>
+        <p>Telefono:+56950241438</p>
+        <p>Correo: jean.rojas@usach.cl</p>
     </footer>
 
 
